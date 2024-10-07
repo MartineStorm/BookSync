@@ -1,0 +1,187 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e4d5b7;
+    color: #382110;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a shadow beneath the header */
+    z-index: 10; /* Ensure the header is above other elements */
+    position: relative; /* Position relative to maintain stacking order */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Profile Section */
+#profile {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Header */
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-info h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.profile-info p {
+    color: gray;
+}
+
+/* Bookshelves */
+.bookshelves {
+    margin-bottom: 20px;
+}
+
+.shelf {
+    margin-bottom: 10px;
+}
+
+.shelf h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.shelf ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.shelf ul li {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+/* Reviews */
+.reviews {
+    margin-bottom: 20px;
+}
+
+.review-item {
+    margin-bottom: 15px;
+}
+
+.review-item h4 {
+    margin: 0 0 5px 0;
+}
+
+.review-item p {
+    margin: 5px 0;
+}
+
+/* Friends */
+.friends ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.friends ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.friends ul li img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Recent Activity */
+.activity ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.activity ul li {
+    background-color: #e9ecef;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #e4d5b7;
+    color: #382110;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Background container for the buttons */
+.nav-buttons-container {
+    background: #e4d5b7;
+    padding: 20px;
+    text-align: center;      /* Center the content inside */
+    margin: 0px auto;       /* Center the container horizontally */
+    width: 100%;      /* Adjust width to fit content */
+}
+
+/* Remove bullet points and padding from the ul with class "buttons" */
+ul.buttons {
+    list-style-type: none;   /* Removes the bullet points */
+    padding-left: 0;         /* Removes left padding */
+    margin-left: 0;          /* Removes left margin */
+    display: flex;           /* Aligns buttons horizontally */
+    gap: 10px;               /* Adds spacing between buttons */
+    justify-content: center; /* Center the buttons horizontally */
+}
+
+/* Optional: Style the links in the buttons */
+ul.buttons li a {
+    text-decoration: none;     /* Removes underline from links */
+    padding: 10px 20px;        /* Adds padding to the buttons */
+    color: #382110;
+    border-radius: 5px;        /* Rounded corners */
+    display: inline-block;     /* Makes the link behave like a button */
+}
+
+/* Optional: Add hover effect */
+ul.buttons li a:hover {
+    background-color: #45a049; /* Darker background on hover */
+}
+
