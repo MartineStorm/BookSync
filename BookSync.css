@@ -9,13 +9,67 @@ body {
 header {
     background-color: #e4d5b7;
     color: #382110;
-    padding: 20px;
+    padding: 5px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a shadow beneath the header */
     z-index: 10; /* Ensure the header is above other elements */
     position: relative; /* Position relative to maintain stacking order */
+    font-size: 10px;
+    text-align: left;
+    padding-left: 30px; 
 }
 
+  /* Style the text in the header */
+  .header-text {
+    text-align: left;
+    margin-right: 20px; /* Creates space between text and the search bar */
+  }
+/* Style for the header */
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the search bar */
+.search-bar {
+    width: 400px; /* Adjust width as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 13px;
+    margin-left: 15px;
+}
+
+/* Style for the round buttons */
+.button-group {
+    display: flex;
+}
+
+.round-button {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: #3498db;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.round-button img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.round-button:hover {
+    background-color: #2980b9; /* Darken the button background on hover */
+}
+
+  
 nav ul {
     list-style: none;
     padding: 0;
@@ -182,6 +236,6 @@ ul.buttons li a {
 
 /* Optional: Add hover effect */
 ul.buttons li a:hover {
-    background-color: #45a049; /* Darker background on hover */
+    background-color: #d6af62; /* Darker background on hover */
 }
 
